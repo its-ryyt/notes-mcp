@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "notes_mcp_server": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--directory", "${workspaceFolder}", "server.py"]
+    }
+  }
+}
